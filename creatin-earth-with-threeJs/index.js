@@ -33,6 +33,8 @@ const material = new THREE.MeshPhongMaterial({
 const earthMesh = new THREE.Mesh(geometry, material);
 earthGroup.add(earthMesh);
 
+
+
 const lightsMat = new THREE.MeshBasicMaterial({
   map: loader.load("./textures/03_earthlights1k.jpg"),
   blending: THREE.AdditiveBlending,
